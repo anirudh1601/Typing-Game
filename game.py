@@ -52,7 +52,7 @@ while PLAY:
 					speed+=0.03
 
 				elif (choosenword==pressedword or choosenword!= pressedword or choosenword not in pressedword) and word_y>=360:
-					messagebox.showwarning("game over","your game is over and your point is " + str(points))
+					messagebox.showwarning("Game Over","Your Game is over and your point is " + str(points))
 					pygame.quit()
 
 
